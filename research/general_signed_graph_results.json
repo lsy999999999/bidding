@@ -1,0 +1,1078 @@
+{
+  "scope": "Exact rational benchmark and best responses, not a computed Nash equilibrium",
+  "n": 3,
+  "K": 4,
+  "alpha_L": {
+    "exact": "1",
+    "decimal": 1.0
+  },
+  "alpha_W": {
+    "exact": "7/5",
+    "decimal": 1.4
+  },
+  "base_value": {
+    "exact": "3",
+    "decimal": 3.0
+  },
+  "noise_distribution": "independent Bernoulli(1/2)",
+  "M": [
+    [
+      {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    ],
+    [
+      {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      {
+        "exact": "1/10",
+        "decimal": 0.1
+      }
+    ],
+    [
+      {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      {
+        "exact": "1/20",
+        "decimal": 0.05
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      {
+        "exact": "1/4",
+        "decimal": 0.25
+      }
+    ],
+    [
+      {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      {
+        "exact": "-3/20",
+        "decimal": -0.15
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      },
+      {
+        "exact": "0",
+        "decimal": 0.0
+      }
+    ]
+  ],
+  "best_benchmark_order": "CDAB",
+  "chosen_result": {
+    "order": "CDAB",
+    "W": {
+      "exact": "19/20",
+      "decimal": 0.95
+    },
+    "benchmark_revenue": {
+      "exact": "299/20",
+      "decimal": 14.95
+    },
+    "max_interim_dynamic_regret": {
+      "exact": "361/1440",
+      "decimal": 0.25069444444444444
+    },
+    "mean_dynamic_regret": {
+      "exact": "51509/460800",
+      "decimal": 0.11178168402777777
+    },
+    "epsilon_subset_range": {
+      "exact": "11/25",
+      "decimal": 0.44
+    },
+    "epsilon_absolute_edges": {
+      "exact": "1/2",
+      "decimal": 0.5
+    },
+    "total_buyer_utility": {
+      "exact": "122/75",
+      "decimal": 1.6266666666666667
+    },
+    "A_correction": {
+      "exact": "2081/150",
+      "decimal": 13.873333333333333
+    },
+    "expected_L": {
+      "exact": "19/30",
+      "decimal": 0.6333333333333333
+    }
+  },
+  "equilibrium_revenue_upper_bound_all_orders": {
+    "exact": "1689/100",
+    "decimal": 16.89
+  },
+  "upper_minus_chosen_benchmark_revenue": {
+    "exact": "97/50",
+    "decimal": 1.94
+  },
+  "all_orders": [
+    {
+      "order": "ABCD",
+      "W": {
+        "exact": "3/20",
+        "decimal": 0.15
+      },
+      "benchmark_revenue": {
+        "exact": "283/20",
+        "decimal": 14.15
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "11/96",
+        "decimal": 0.11458333333333333
+      },
+      "mean_dynamic_regret": {
+        "exact": "4873/76800",
+        "decimal": 0.06345052083333333
+      },
+      "epsilon_subset_range": {
+        "exact": "8/25",
+        "decimal": 0.32
+      },
+      "epsilon_absolute_edges": {
+        "exact": "23/50",
+        "decimal": 0.46
+      },
+      "total_buyer_utility": {
+        "exact": "38/25",
+        "decimal": 1.52
+      },
+      "A_correction": {
+        "exact": "699/50",
+        "decimal": 13.98
+      },
+      "expected_L": {
+        "exact": "1/10",
+        "decimal": 0.1
+      }
+    },
+    {
+      "order": "ABDC",
+      "W": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "benchmark_revenue": {
+        "exact": "139/10",
+        "decimal": 13.9
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "89/720",
+        "decimal": 0.12361111111111112
+      },
+      "mean_dynamic_regret": {
+        "exact": "3037/57600",
+        "decimal": 0.05272569444444444
+      },
+      "epsilon_subset_range": {
+        "exact": "8/25",
+        "decimal": 0.32
+      },
+      "epsilon_absolute_edges": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "total_buyer_utility": {
+        "exact": "223/150",
+        "decimal": 1.4866666666666666
+      },
+      "A_correction": {
+        "exact": "1051/75",
+        "decimal": 14.013333333333334
+      },
+      "expected_L": {
+        "exact": "-1/15",
+        "decimal": -0.06666666666666667
+      }
+    },
+    {
+      "order": "ACBD",
+      "W": {
+        "exact": "3/5",
+        "decimal": 0.6
+      },
+      "benchmark_revenue": {
+        "exact": "73/5",
+        "decimal": 14.6
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "19/120",
+        "decimal": 0.15833333333333333
+      },
+      "mean_dynamic_regret": {
+        "exact": "659/9600",
+        "decimal": 0.06864583333333334
+      },
+      "epsilon_subset_range": {
+        "exact": "7/25",
+        "decimal": 0.28
+      },
+      "epsilon_absolute_edges": {
+        "exact": "8/25",
+        "decimal": 0.32
+      },
+      "total_buyer_utility": {
+        "exact": "79/50",
+        "decimal": 1.58
+      },
+      "A_correction": {
+        "exact": "348/25",
+        "decimal": 13.92
+      },
+      "expected_L": {
+        "exact": "2/5",
+        "decimal": 0.4
+      }
+    },
+    {
+      "order": "ACDB",
+      "W": {
+        "exact": "7/20",
+        "decimal": 0.35
+      },
+      "benchmark_revenue": {
+        "exact": "287/20",
+        "decimal": 14.35
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "133/1440",
+        "decimal": 0.09236111111111112
+      },
+      "mean_dynamic_regret": {
+        "exact": "24359/460800",
+        "decimal": 0.052862413194444444
+      },
+      "epsilon_subset_range": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "epsilon_absolute_edges": {
+        "exact": "17/50",
+        "decimal": 0.34
+      },
+      "total_buyer_utility": {
+        "exact": "116/75",
+        "decimal": 1.5466666666666666
+      },
+      "A_correction": {
+        "exact": "2093/150",
+        "decimal": 13.953333333333333
+      },
+      "expected_L": {
+        "exact": "7/30",
+        "decimal": 0.23333333333333334
+      }
+    },
+    {
+      "order": "ADBC",
+      "W": {
+        "exact": "-7/20",
+        "decimal": -0.35
+      },
+      "benchmark_revenue": {
+        "exact": "273/20",
+        "decimal": 13.65
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "739/7200",
+        "decimal": 0.10263888888888889
+      },
+      "mean_dynamic_regret": {
+        "exact": "2723/57600",
+        "decimal": 0.047274305555555556
+      },
+      "epsilon_subset_range": {
+        "exact": "17/50",
+        "decimal": 0.34
+      },
+      "epsilon_absolute_edges": {
+        "exact": "19/50",
+        "decimal": 0.38
+      },
+      "total_buyer_utility": {
+        "exact": "109/75",
+        "decimal": 1.4533333333333334
+      },
+      "A_correction": {
+        "exact": "2107/150",
+        "decimal": 14.046666666666667
+      },
+      "expected_L": {
+        "exact": "-7/30",
+        "decimal": -0.23333333333333334
+      }
+    },
+    {
+      "order": "ADCB",
+      "W": {
+        "exact": "1/10",
+        "decimal": 0.1
+      },
+      "benchmark_revenue": {
+        "exact": "141/10",
+        "decimal": 14.1
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "311/3600",
+        "decimal": 0.08638888888888889
+      },
+      "mean_dynamic_regret": {
+        "exact": "3653/92160",
+        "decimal": 0.039637586805555555
+      },
+      "epsilon_subset_range": {
+        "exact": "9/50",
+        "decimal": 0.18
+      },
+      "epsilon_absolute_edges": {
+        "exact": "6/25",
+        "decimal": 0.24
+      },
+      "total_buyer_utility": {
+        "exact": "227/150",
+        "decimal": 1.5133333333333334
+      },
+      "A_correction": {
+        "exact": "1049/75",
+        "decimal": 13.986666666666666
+      },
+      "expected_L": {
+        "exact": "1/15",
+        "decimal": 0.06666666666666667
+      }
+    },
+    {
+      "order": "BACD",
+      "W": {
+        "exact": "-3/20",
+        "decimal": -0.15
+      },
+      "benchmark_revenue": {
+        "exact": "277/20",
+        "decimal": 13.85
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "449/4800",
+        "decimal": 0.09354166666666666
+      },
+      "mean_dynamic_regret": {
+        "exact": "131/3072",
+        "decimal": 0.042643229166666664
+      },
+      "epsilon_subset_range": {
+        "exact": "3/10",
+        "decimal": 0.3
+      },
+      "epsilon_absolute_edges": {
+        "exact": "17/50",
+        "decimal": 0.34
+      },
+      "total_buyer_utility": {
+        "exact": "37/25",
+        "decimal": 1.48
+      },
+      "A_correction": {
+        "exact": "701/50",
+        "decimal": 14.02
+      },
+      "expected_L": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      }
+    },
+    {
+      "order": "BADC",
+      "W": {
+        "exact": "-2/5",
+        "decimal": -0.4
+      },
+      "benchmark_revenue": {
+        "exact": "68/5",
+        "decimal": 13.6
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "101/1800",
+        "decimal": 0.05611111111111111
+      },
+      "mean_dynamic_regret": {
+        "exact": "173/7200",
+        "decimal": 0.024027777777777776
+      },
+      "epsilon_subset_range": {
+        "exact": "6/25",
+        "decimal": 0.24
+      },
+      "epsilon_absolute_edges": {
+        "exact": "6/25",
+        "decimal": 0.24
+      },
+      "total_buyer_utility": {
+        "exact": "217/150",
+        "decimal": 1.4466666666666668
+      },
+      "A_correction": {
+        "exact": "1054/75",
+        "decimal": 14.053333333333333
+      },
+      "expected_L": {
+        "exact": "-4/15",
+        "decimal": -0.26666666666666666
+      }
+    },
+    {
+      "order": "BCAD",
+      "W": {
+        "exact": "3/20",
+        "decimal": 0.15
+      },
+      "benchmark_revenue": {
+        "exact": "283/20",
+        "decimal": 14.15
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "311/2400",
+        "decimal": 0.12958333333333333
+      },
+      "mean_dynamic_regret": {
+        "exact": "1117/19200",
+        "decimal": 0.05817708333333333
+      },
+      "epsilon_subset_range": {
+        "exact": "17/50",
+        "decimal": 0.34
+      },
+      "epsilon_absolute_edges": {
+        "exact": "19/50",
+        "decimal": 0.38
+      },
+      "total_buyer_utility": {
+        "exact": "38/25",
+        "decimal": 1.52
+      },
+      "A_correction": {
+        "exact": "699/50",
+        "decimal": 13.98
+      },
+      "expected_L": {
+        "exact": "1/10",
+        "decimal": 0.1
+      }
+    },
+    {
+      "order": "BCDA",
+      "W": {
+        "exact": "9/20",
+        "decimal": 0.45
+      },
+      "benchmark_revenue": {
+        "exact": "289/20",
+        "decimal": 14.45
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "167/800",
+        "decimal": 0.20875
+      },
+      "mean_dynamic_regret": {
+        "exact": "587/6400",
+        "decimal": 0.09171875
+      },
+      "epsilon_subset_range": {
+        "exact": "23/50",
+        "decimal": 0.46
+      },
+      "epsilon_absolute_edges": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "total_buyer_utility": {
+        "exact": "39/25",
+        "decimal": 1.56
+      },
+      "A_correction": {
+        "exact": "697/50",
+        "decimal": 13.94
+      },
+      "expected_L": {
+        "exact": "3/10",
+        "decimal": 0.3
+      }
+    },
+    {
+      "order": "BDAC",
+      "W": {
+        "exact": "-1/10",
+        "decimal": -0.1
+      },
+      "benchmark_revenue": {
+        "exact": "139/10",
+        "decimal": 13.9
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "89/720",
+        "decimal": 0.12361111111111112
+      },
+      "mean_dynamic_regret": {
+        "exact": "1613/28800",
+        "decimal": 0.05600694444444444
+      },
+      "epsilon_subset_range": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "epsilon_absolute_edges": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "total_buyer_utility": {
+        "exact": "223/150",
+        "decimal": 1.4866666666666666
+      },
+      "A_correction": {
+        "exact": "1051/75",
+        "decimal": 14.013333333333334
+      },
+      "expected_L": {
+        "exact": "-1/15",
+        "decimal": -0.06666666666666667
+      }
+    },
+    {
+      "order": "BDCA",
+      "W": {
+        "exact": "1/5",
+        "decimal": 0.2
+      },
+      "benchmark_revenue": {
+        "exact": "71/5",
+        "decimal": 14.2
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "71/450",
+        "decimal": 0.15777777777777777
+      },
+      "mean_dynamic_regret": {
+        "exact": "203/2880",
+        "decimal": 0.07048611111111111
+      },
+      "epsilon_subset_range": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "epsilon_absolute_edges": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "total_buyer_utility": {
+        "exact": "229/150",
+        "decimal": 1.5266666666666666
+      },
+      "A_correction": {
+        "exact": "1048/75",
+        "decimal": 13.973333333333333
+      },
+      "expected_L": {
+        "exact": "2/15",
+        "decimal": 0.13333333333333333
+      }
+    },
+    {
+      "order": "CABD",
+      "W": {
+        "exact": "9/10",
+        "decimal": 0.9
+      },
+      "benchmark_revenue": {
+        "exact": "149/10",
+        "decimal": 14.9
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "19/80",
+        "decimal": 0.2375
+      },
+      "mean_dynamic_regret": {
+        "exact": "161/1600",
+        "decimal": 0.100625
+      },
+      "epsilon_subset_range": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "epsilon_absolute_edges": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "total_buyer_utility": {
+        "exact": "81/50",
+        "decimal": 1.62
+      },
+      "A_correction": {
+        "exact": "347/25",
+        "decimal": 13.88
+      },
+      "expected_L": {
+        "exact": "3/5",
+        "decimal": 0.6
+      }
+    },
+    {
+      "order": "CADB",
+      "W": {
+        "exact": "13/20",
+        "decimal": 0.65
+      },
+      "benchmark_revenue": {
+        "exact": "293/20",
+        "decimal": 14.65
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "247/1440",
+        "decimal": 0.17152777777777778
+      },
+      "mean_dynamic_regret": {
+        "exact": "38321/460800",
+        "decimal": 0.08316189236111111
+      },
+      "epsilon_subset_range": {
+        "exact": "8/25",
+        "decimal": 0.32
+      },
+      "epsilon_absolute_edges": {
+        "exact": "19/50",
+        "decimal": 0.38
+      },
+      "total_buyer_utility": {
+        "exact": "119/75",
+        "decimal": 1.5866666666666667
+      },
+      "A_correction": {
+        "exact": "2087/150",
+        "decimal": 13.913333333333334
+      },
+      "expected_L": {
+        "exact": "13/30",
+        "decimal": 0.43333333333333335
+      }
+    },
+    {
+      "order": "CBAD",
+      "W": {
+        "exact": "3/5",
+        "decimal": 0.6
+      },
+      "benchmark_revenue": {
+        "exact": "73/5",
+        "decimal": 14.6
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "19/120",
+        "decimal": 0.15833333333333333
+      },
+      "mean_dynamic_regret": {
+        "exact": "161/2400",
+        "decimal": 0.06708333333333333
+      },
+      "epsilon_subset_range": {
+        "exact": "6/25",
+        "decimal": 0.24
+      },
+      "epsilon_absolute_edges": {
+        "exact": "6/25",
+        "decimal": 0.24
+      },
+      "total_buyer_utility": {
+        "exact": "79/50",
+        "decimal": 1.58
+      },
+      "A_correction": {
+        "exact": "348/25",
+        "decimal": 13.92
+      },
+      "expected_L": {
+        "exact": "2/5",
+        "decimal": 0.4
+      }
+    },
+    {
+      "order": "CBDA",
+      "W": {
+        "exact": "9/10",
+        "decimal": 0.9
+      },
+      "benchmark_revenue": {
+        "exact": "149/10",
+        "decimal": 14.9
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "19/80",
+        "decimal": 0.2375
+      },
+      "mean_dynamic_regret": {
+        "exact": "161/1600",
+        "decimal": 0.100625
+      },
+      "epsilon_subset_range": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "epsilon_absolute_edges": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "total_buyer_utility": {
+        "exact": "81/50",
+        "decimal": 1.62
+      },
+      "A_correction": {
+        "exact": "347/25",
+        "decimal": 13.88
+      },
+      "expected_L": {
+        "exact": "3/5",
+        "decimal": 0.6
+      }
+    },
+    {
+      "order": "CDAB",
+      "W": {
+        "exact": "19/20",
+        "decimal": 0.95
+      },
+      "benchmark_revenue": {
+        "exact": "299/20",
+        "decimal": 14.95
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "361/1440",
+        "decimal": 0.25069444444444444
+      },
+      "mean_dynamic_regret": {
+        "exact": "51509/460800",
+        "decimal": 0.11178168402777777
+      },
+      "epsilon_subset_range": {
+        "exact": "11/25",
+        "decimal": 0.44
+      },
+      "epsilon_absolute_edges": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "total_buyer_utility": {
+        "exact": "122/75",
+        "decimal": 1.6266666666666667
+      },
+      "A_correction": {
+        "exact": "2081/150",
+        "decimal": 13.873333333333333
+      },
+      "expected_L": {
+        "exact": "19/30",
+        "decimal": 0.6333333333333333
+      }
+    },
+    {
+      "order": "CDBA",
+      "W": {
+        "exact": "13/20",
+        "decimal": 0.65
+      },
+      "benchmark_revenue": {
+        "exact": "293/20",
+        "decimal": 14.65
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "1451/7200",
+        "decimal": 0.20152777777777778
+      },
+      "mean_dynamic_regret": {
+        "exact": "5041/57600",
+        "decimal": 0.08751736111111111
+      },
+      "epsilon_subset_range": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "epsilon_absolute_edges": {
+        "exact": "19/50",
+        "decimal": 0.38
+      },
+      "total_buyer_utility": {
+        "exact": "119/75",
+        "decimal": 1.5866666666666667
+      },
+      "A_correction": {
+        "exact": "2087/150",
+        "decimal": 13.913333333333334
+      },
+      "expected_L": {
+        "exact": "13/30",
+        "decimal": 0.43333333333333335
+      }
+    },
+    {
+      "order": "DABC",
+      "W": {
+        "exact": "-1/20",
+        "decimal": -0.05
+      },
+      "benchmark_revenue": {
+        "exact": "279/20",
+        "decimal": 13.95
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "197/1440",
+        "decimal": 0.13680555555555557
+      },
+      "mean_dynamic_regret": {
+        "exact": "3899/57600",
+        "decimal": 0.06769097222222223
+      },
+      "epsilon_subset_range": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "epsilon_absolute_edges": {
+        "exact": "1/2",
+        "decimal": 0.5
+      },
+      "total_buyer_utility": {
+        "exact": "112/75",
+        "decimal": 1.4933333333333334
+      },
+      "A_correction": {
+        "exact": "2101/150",
+        "decimal": 14.006666666666666
+      },
+      "expected_L": {
+        "exact": "-1/30",
+        "decimal": -0.03333333333333333
+      }
+    },
+    {
+      "order": "DACB",
+      "W": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "benchmark_revenue": {
+        "exact": "72/5",
+        "decimal": 14.4
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "217/1800",
+        "decimal": 0.12055555555555555
+      },
+      "mean_dynamic_regret": {
+        "exact": "27349/460800",
+        "decimal": 0.05935112847222222
+      },
+      "epsilon_subset_range": {
+        "exact": "6/25",
+        "decimal": 0.24
+      },
+      "epsilon_absolute_edges": {
+        "exact": "9/25",
+        "decimal": 0.36
+      },
+      "total_buyer_utility": {
+        "exact": "233/150",
+        "decimal": 1.5533333333333332
+      },
+      "A_correction": {
+        "exact": "1046/75",
+        "decimal": 13.946666666666667
+      },
+      "expected_L": {
+        "exact": "4/15",
+        "decimal": 0.26666666666666666
+      }
+    },
+    {
+      "order": "DBAC",
+      "W": {
+        "exact": "-7/20",
+        "decimal": -0.35
+      },
+      "benchmark_revenue": {
+        "exact": "273/20",
+        "decimal": 13.65
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "191/1440",
+        "decimal": 0.1326388888888889
+      },
+      "mean_dynamic_regret": {
+        "exact": "191/3600",
+        "decimal": 0.05305555555555556
+      },
+      "epsilon_subset_range": {
+        "exact": "17/50",
+        "decimal": 0.34
+      },
+      "epsilon_absolute_edges": {
+        "exact": "19/50",
+        "decimal": 0.38
+      },
+      "total_buyer_utility": {
+        "exact": "109/75",
+        "decimal": 1.4533333333333334
+      },
+      "A_correction": {
+        "exact": "2107/150",
+        "decimal": 14.046666666666667
+      },
+      "expected_L": {
+        "exact": "-7/30",
+        "decimal": -0.23333333333333334
+      }
+    },
+    {
+      "order": "DBCA",
+      "W": {
+        "exact": "-1/20",
+        "decimal": -0.05
+      },
+      "benchmark_revenue": {
+        "exact": "279/20",
+        "decimal": 13.95
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "1201/7200",
+        "decimal": 0.16680555555555557
+      },
+      "mean_dynamic_regret": {
+        "exact": "2017/28800",
+        "decimal": 0.07003472222222222
+      },
+      "epsilon_subset_range": {
+        "exact": "21/50",
+        "decimal": 0.42
+      },
+      "epsilon_absolute_edges": {
+        "exact": "21/50",
+        "decimal": 0.42
+      },
+      "total_buyer_utility": {
+        "exact": "112/75",
+        "decimal": 1.4933333333333334
+      },
+      "A_correction": {
+        "exact": "2101/150",
+        "decimal": 14.006666666666666
+      },
+      "expected_L": {
+        "exact": "-1/30",
+        "decimal": -0.03333333333333333
+      }
+    },
+    {
+      "order": "DCAB",
+      "W": {
+        "exact": "7/10",
+        "decimal": 0.7
+      },
+      "benchmark_revenue": {
+        "exact": "147/10",
+        "decimal": 14.7
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "133/720",
+        "decimal": 0.18472222222222223
+      },
+      "mean_dynamic_regret": {
+        "exact": "7769/92160",
+        "decimal": 0.08429904513888889
+      },
+      "epsilon_subset_range": {
+        "exact": "17/50",
+        "decimal": 0.34
+      },
+      "epsilon_absolute_edges": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "total_buyer_utility": {
+        "exact": "239/150",
+        "decimal": 1.5933333333333333
+      },
+      "A_correction": {
+        "exact": "1043/75",
+        "decimal": 13.906666666666666
+      },
+      "expected_L": {
+        "exact": "7/15",
+        "decimal": 0.4666666666666667
+      }
+    },
+    {
+      "order": "DCBA",
+      "W": {
+        "exact": "2/5",
+        "decimal": 0.4
+      },
+      "benchmark_revenue": {
+        "exact": "72/5",
+        "decimal": 14.4
+      },
+      "max_interim_dynamic_regret": {
+        "exact": "61/450",
+        "decimal": 0.13555555555555557
+      },
+      "mean_dynamic_regret": {
+        "exact": "3431/57600",
+        "decimal": 0.05956597222222222
+      },
+      "epsilon_subset_range": {
+        "exact": "13/50",
+        "decimal": 0.26
+      },
+      "epsilon_absolute_edges": {
+        "exact": "7/25",
+        "decimal": 0.28
+      },
+      "total_buyer_utility": {
+        "exact": "233/150",
+        "decimal": 1.5533333333333332
+      },
+      "A_correction": {
+        "exact": "1046/75",
+        "decimal": 13.946666666666667
+      },
+      "expected_L": {
+        "exact": "4/15",
+        "decimal": 0.26666666666666666
+      }
+    }
+  ]
+}

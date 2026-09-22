@@ -1,0 +1,155 @@
+{
+  "samples": 200000,
+  "seed": 20260920,
+  "exact_threshold_deviation_checks": 3362,
+  "pathwise_revenue_identity_max_error": 7.105427357601002e-15,
+  "all_24_orders_checked": true,
+  "interleaving_invariance_checked": true,
+  "winner_pattern_checked": true,
+  "orders": [
+    {
+      "order": "ABDC",
+      "theoretical_revenue": 20.533333333333335,
+      "sample_mean": 20.53209315731437,
+      "standard_error": 0.0010590548018465456
+    },
+    {
+      "order": "ADBC",
+      "theoretical_revenue": 20.533333333333335,
+      "sample_mean": 20.53209315731437,
+      "standard_error": 0.0010590548018465456
+    },
+    {
+      "order": "ADCB",
+      "theoretical_revenue": 20.533333333333335,
+      "sample_mean": 20.53209315731437,
+      "standard_error": 0.0010590548018465456
+    },
+    {
+      "order": "DABC",
+      "theoretical_revenue": 20.533333333333335,
+      "sample_mean": 20.53209315731437,
+      "standard_error": 0.0010590548018465456
+    },
+    {
+      "order": "DACB",
+      "theoretical_revenue": 20.533333333333335,
+      "sample_mean": 20.53209315731437,
+      "standard_error": 0.0010590548018465456
+    },
+    {
+      "order": "DCAB",
+      "theoretical_revenue": 20.533333333333335,
+      "sample_mean": 20.53209315731437,
+      "standard_error": 0.0010590548018465456
+    },
+    {
+      "order": "ABCD",
+      "theoretical_revenue": 19.033333333333335,
+      "sample_mean": 19.033027106284703,
+      "standard_error": 0.0010586522127400862
+    },
+    {
+      "order": "ACBD",
+      "theoretical_revenue": 19.033333333333335,
+      "sample_mean": 19.033027106284703,
+      "standard_error": 0.0010586522127400862
+    },
+    {
+      "order": "ACDB",
+      "theoretical_revenue": 19.033333333333335,
+      "sample_mean": 19.033027106284703,
+      "standard_error": 0.0010586522127400862
+    },
+    {
+      "order": "CABD",
+      "theoretical_revenue": 19.033333333333335,
+      "sample_mean": 19.033027106284703,
+      "standard_error": 0.0010586522127400862
+    },
+    {
+      "order": "CADB",
+      "theoretical_revenue": 19.033333333333335,
+      "sample_mean": 19.033027106284703,
+      "standard_error": 0.0010586522127400862
+    },
+    {
+      "order": "CDAB",
+      "theoretical_revenue": 19.033333333333335,
+      "sample_mean": 19.033027106284703,
+      "standard_error": 0.0010586522127400862
+    },
+    {
+      "order": "BADC",
+      "theoretical_revenue": 15.533333333333335,
+      "sample_mean": 15.531945049962669,
+      "standard_error": 0.0008401479103248612
+    },
+    {
+      "order": "BDAC",
+      "theoretical_revenue": 15.533333333333335,
+      "sample_mean": 15.531945049962669,
+      "standard_error": 0.0008401479103248612
+    },
+    {
+      "order": "BDCA",
+      "theoretical_revenue": 15.533333333333335,
+      "sample_mean": 15.531945049962669,
+      "standard_error": 0.0008401479103248612
+    },
+    {
+      "order": "DBAC",
+      "theoretical_revenue": 15.533333333333335,
+      "sample_mean": 15.531945049962669,
+      "standard_error": 0.0008401479103248612
+    },
+    {
+      "order": "DBCA",
+      "theoretical_revenue": 15.533333333333335,
+      "sample_mean": 15.531945049962669,
+      "standard_error": 0.0008401479103248612
+    },
+    {
+      "order": "DCBA",
+      "theoretical_revenue": 15.533333333333335,
+      "sample_mean": 15.531945049962669,
+      "standard_error": 0.0008401479103248612
+    },
+    {
+      "order": "BACD",
+      "theoretical_revenue": 14.033333333333335,
+      "sample_mean": 14.032878998933002,
+      "standard_error": 0.0008412383458562086
+    },
+    {
+      "order": "BCAD",
+      "theoretical_revenue": 14.033333333333335,
+      "sample_mean": 14.032878998933002,
+      "standard_error": 0.0008412383458562086
+    },
+    {
+      "order": "BCDA",
+      "theoretical_revenue": 14.033333333333335,
+      "sample_mean": 14.032878998933002,
+      "standard_error": 0.0008412383458562086
+    },
+    {
+      "order": "CBAD",
+      "theoretical_revenue": 14.033333333333335,
+      "sample_mean": 14.032878998933002,
+      "standard_error": 0.0008412383458562086
+    },
+    {
+      "order": "CBDA",
+      "theoretical_revenue": 14.033333333333335,
+      "sample_mean": 14.032878998933002,
+      "standard_error": 0.0008412383458562086
+    },
+    {
+      "order": "CDBA",
+      "theoretical_revenue": 14.033333333333335,
+      "sample_mean": 14.032878998933002,
+      "standard_error": 0.0008412383458562086
+    }
+  ]
+}
